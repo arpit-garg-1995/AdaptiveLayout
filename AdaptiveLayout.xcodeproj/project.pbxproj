@@ -15,6 +15,7 @@
 		D15016C925A1932B0078D536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15016C725A1932B0078D536 /* LaunchScreen.storyboard */; };
 		D15016D425A1932B0078D536 /* AdaptiveLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15016D325A1932B0078D536 /* AdaptiveLayoutTests.swift */; };
 		D15016DF25A1932B0078D536 /* AdaptiveLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15016DE25A1932B0078D536 /* AdaptiveLayoutUITests.swift */; };
+		D15016ED25A1E8660078D536 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15016EC25A1E8660078D536 /* BorderedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D15016DA25A1932B0078D536 /* AdaptiveLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15016DE25A1932B0078D536 /* AdaptiveLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveLayoutUITests.swift; sourceTree = "<group>"; };
 		D15016E025A1932B0078D536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15016EC25A1E8660078D536 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D15016C525A1932B0078D536 /* Assets.xcassets */,
 				D15016C725A1932B0078D536 /* LaunchScreen.storyboard */,
 				D15016CA25A1932B0078D536 /* Info.plist */,
+				D15016EC25A1E8660078D536 /* BorderedButton.swift */,
 			);
 			path = AdaptiveLayout;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				D15016C125A193290078D536 /* ViewController.swift in Sources */,
 				D15016BD25A193290078D536 /* AppDelegate.swift in Sources */,
+				D15016ED25A1E8660078D536 /* BorderedButton.swift in Sources */,
 				D15016BF25A193290078D536 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
